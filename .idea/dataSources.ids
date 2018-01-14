@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - wyyx@localhost" uuid="f16e04e8-a3bf-456f-9cf3-3344984c24d0">
+    <database-info product="MySQL" version="5.6.23-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="wyyx"/>
+      <table id="2" parent="1" name="yx_products"/>
+      <table id="3" parent="1" name="yx_products_detail"/>
+      <table id="4" parent="1" name="yx_products_family"/>
+      <column id="5" parent="2" name="pid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="6" parent="2" name="fid">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="7" parent="2" name="title">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="8" parent="2" name="producter">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="9" parent="2" name="subtitle">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="10" parent="2" name="price">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <column id="11" parent="2" name="evaluate">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="12" parent="2" name="coupon">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="13" parent="2" name="promotion">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="14" parent="2" name="integral">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="15" parent="2" name="promise">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="16" parent="2" name="shelf_time">
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="17" parent="2" name="is_onsale">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="18" parent="2" name="onsale_price">
+        <data-type>decimal(10,2)</data-type>
+      </column>
+      <column id="19" parent="2" name="onsale_time">
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="20" parent="2" name="cm_sm">
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="21" parent="2" name="cm_md">
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="22" parent="2" name="cm_lg">
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="23" parent="2" name="details">
+        <data-type>varchar(1024)</data-type>
+      </column>
+      <column id="24" parent="2" name="left_top_sm">
+        <data-type>int(2)</data-type>
+      </column>
+      <key id="25" parent="2" name="PRIMARY">
+        <columns>pid</columns>
+        <primary>1</primary>
+      </key>
+      <column id="26" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="27" parent="3" name="pid">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="28" parent="3" name="spec">
+        <data-type>varchar(64)</data-type>
+      </column>
+      <column id="29" parent="3" name="color">
+        <data-type>varchar(16)</data-type>
+      </column>
+      <column id="30" parent="3" name="sold_count">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="31" parent="3" name="stock">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="32" parent="3" name="sm">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="33" parent="3" name="md">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="34" parent="3" name="lg">
+        <data-type>varchar(128)</data-type>
+      </column>
+      <key id="35" parent="3" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="36" parent="4" name="fid">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="37" parent="4" name="cid">
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="38" parent="4" name="fname">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="39" parent="4" name="cname">
+        <data-type>varchar(32)</data-type>
+      </column>
+      <key id="40" parent="4" name="PRIMARY">
+        <columns>fid</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

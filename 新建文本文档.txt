@@ -1,0 +1,22 @@
+
+INSERT INTO yx_products VALUES 
+    (1,1,'冬眠暖绒四件套','罗莱制造商','纯棉拉舍尔，被窝享冬眠',499,999,'每满155减30元券','满赠 每满1件领取赠品','购买最高得49积分',
+	'· 30天无忧退换货    · 48小时快速退款    · 满88元免邮费    · 网易自营品牌    · 国内部分地区无法配送    ',150123456789,true,399,150135456789,
+	'img/products/46a2bbc32337e40cfe1322b38c8354c1 (1).jpg img/products/740b9f5a8915717b0c9aa4074bf5a436 (1).jpg img/products/960e2718a8a4ebdf049ab42280253aa3 (1).jpg img/products/fa31e181465839e49d7d26883aa5970a (1).jpg img/products/ff485de9150a1d1f6e9004f15c853972 (1).jpg',
+	'img/products/46a2bbc32337e40cfe1322b38c8354c1.jpg img/products/740b9f5a8915717b0c9aa4074bf5a436.jpg img/products/960e2718a8a4ebdf049ab42280253aa3.jpg img/products/fa31e181465839e49d7d26883aa5970a.jpg img/products/ff485de9150a1d1f6e9004f15c853972.jpg',null,null),
+    (2,1,'全棉色织磨毛四件套','Ralph Lauren制造商','温暖浅磨毛，入冬必备',299,999,'每满155减30元券','加价购 满130元可超值换购','购买最高得29积分',
+	'· 30天无忧退换货    · 48小时快速退款    · 满88元免邮费    · 网易自营品牌    · 国内部分地区无法配送    ',1515115367863,false,null,null,
+	'img/products/3c317ab4307fa7b9479a040f1bf6d85c (1).jpg img/products/17a92159902c068c392532b9458af7ea (1).jpg img/products/26bdd3f2248ec1e84c811afd6d271e7f (1).jpg img/products/a946e69898bc5cda26d78d7957c6ec3b (1).jpg img/products/fd1b4429d02410af591db8b10c49eaa7 (1).jpg',
+	'img/products/3c317ab4307fa7b9479a040f1bf6d85c.jpg img/products/17a92159902c068c392532b9458af7ea.jpg img/products/26bdd3f2248ec1e84c811afd6d271e7f.jpg img/products/a946e69898bc5cda26d78d7957c6ec3b.jpg img/products/fd1b4429d02410af591db8b10c49eaa7.jpg',null,null),
+    (3,2,'安全智能控温电热毯',null,'日德进口原配件，安全调温',349,999,null,'加价购 满130元可超值换购','购买最高得34积分',
+	'· 30天无忧退换货    · 48小时快速退款    · 满88元免邮费    · 网易自营品牌    · 国内部分地区无法配送    ',151125556789,false,null,null,
+	'img/products/00ab59e8ea4cf1306f075ba13c9b8dd0.jpg img/products/0a1d7333b5f99b67ce97946e06265468.png img/products/559d14e20fa555d71c1100725e5f0442.jpg img/products/c097653b415b8c9d998e8988cc5acd65.jpg img/products/9fb5a08008fc7be40452b20e48738bd6.jpg',
+	'img/products/00ab59e8ea4cf1306f075ba13c9b8dd0 (1).jpg img/products/0a1d7333b5f99b67ce97946e06265468 (1).png img/products/559d14e20fa555d71c1100725e5f0442 (1).jpg img/products/c097653b415b8c9d998e8988cc5acd65 (1).jpg img/products/9fb5a08008fc7be40452b20e48738bd6 (1).jpg',null,null),
+    (4,2,'保暖嫩肤蚕丝羽绒子母被','MUJI制造商','95%白鹅绒+双宫茧桑蚕丝，保暖保湿二合一',1999,671,null,'加价购 满130元可超值换购','购买最高得199积分',
+	'· 30天无忧退换货    · 48小时快速退款    · 满88元免邮费    · 网易自营品牌    · 国内部分地区无法配送    ',1515115367863,false,null,null,
+	'img/products/048ee37e9691ad52a796939911a38630.png img/products/df308992f08429707d732b1f91b7c608.jpg img/products/ca0c08d4b0bcc47e45595861c88f890b.jpg img/products/7392824aa5ee0e199c7df5aac11df2b2.jpg img/products/bd89a8c1476dd429b04070ade0adb42d.jpg',
+	'img/products/048ee37e9691ad52a796939911a38630 (1).png img/products/df308992f08429707d732b1f91b7c608 (1).jpg img/products/ca0c08d4b0bcc47e45595861c88f890b (1).jpg img/products/7392824aa5ee0e199c7df5aac11df2b2 (1).jpg img/products/bd89a8c1476dd429b04070ade0adb42d (1).jpg',null,null),
+    (5,3,'胶囊形带镜衣帽架','NITORI制造商','一物三用 玄关神器',99,58,null,'APP特惠 用严选APP购买更便宜','购买最高得9积分',
+	'· 30天无忧退换货    · 48小时快速退款    · 满88元免邮费    · 网易自营品牌    · 免费配送到家    · 国内部分地区无法配送        ',150124356789,false,null,null,
+	'img/products/1870c0dafa1483911715a089b6d20197.png img/products/ecb0c06b3d64b7e00e12af8085f28801.jpg img/products/0f59751406657af81e499f1563979e1f.jpg img/products/40e9c257ef3f62ae27446cb2124c216c.jpg img/products/78c81ab5e0ddf8b51325af6beb780d54.png',
+	'img/products/1870c0dafa1483911715a089b6d20197 (1).png img/products/ecb0c06b3d64b7e00e12af8085f28801 (1).jpg img/products/0f59751406657af81e499f1563979e1f (1).jpg img/products/40e9c257ef3f62ae27446cb2124c216c (1).jpg img/products/78c81ab5e0ddf8b51325af6beb780d54 (1).png',null,null);

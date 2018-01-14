@@ -1,0 +1,368 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Microsoft Yahei","微软雅黑",verdana;
+    color: #333;
+    font-size:12px;
+}
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dd{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-weight:normal;
+    font-size:12px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*.clear{ clear:both;}*/
+
+.main{
+    width: 100%;
+    height:100%;
+    display: flex;
+    /*border:1px solid blueviolet;*/
+    background-color:#f5f5f5;
+    margin-top: 20px;
+}
+#j-YXComponentTop{
+    width:1090px;
+    height:100%;
+    /*border:1px solid cyan;*/
+    margin: 0 auto;
+}
+div .top_crumbs{
+    width:1090px;
+    background-color:#f5f5f5;
+    margin: 0 auto;
+    padding:12px 0px;
+    word-spacing: 6px;
+    font-family: 宋体;
+    font-size:12px;
+}
+.crumbs a:hover{
+    color: black;
+    text-decoration:underline;
+}
+div.orientation{
+    width:1090px;
+    height:100%;
+    background-color:white;
+    /*border:1px solid blueviolet;*/
+    margin: 0 auto;
+}
+#j-YXComponentTop .banner{
+    width:1090px;
+    margin:0 auto;
+    height:310px;
+    overflow:hidden;
+    position:relative;
+    margin-bottom: 30px;
+}
+.banner_img{
+    width:6000px;
+}
+.li_img {
+    width: 1090px;
+    float: left;
+    list-style: none;
+}
+/*小圆点样式修饰*/
+.banner ul.indi{
+    position:absolute;
+    left:480px;
+    bottom:14px;
+}
+.banner ul.indi li{
+    width:12px;
+    height:12px;
+    float:left;
+    border-radius:50%;
+    background:white;
+    margin-left:16px;
+    background-color: #bfbbba;
+}
+#btns{
+    display: none;
+}
+#btns button{
+    color:white;
+    font-size:26px;
+    border: none;
+}
+.banner #btns #ck_left{
+    width: 40px;
+    height: 66px;
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    background-color: #303030;
+}
+#btns #ck_left:hover{
+    background:#000;
+    opacity:0.5;
+}
+.banner #btns #ck_right{
+    position: absolute;
+    width: 40px;
+    height: 66px;
+    top: 130px;
+    right: 10px;
+    z-index: 10;
+    background-color: #303030;
+}
+#btns #ck_right:hover{
+    background:#000;
+    opacity:0.5;
+}
+div.m-goodsArea{
+    width:1010px;
+    height:165px;
+    /*border:1px solid red;*/
+    margin:0 auto;
+    margin-top: 10px;
+
+}
+div .category>.name{
+    margin-right: 18px;
+}
+.orientation div.category,div.sorts {
+    width: 1010px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 14px;
+    word-spacing: 10px;
+}
+div.sorts{
+    border-bottom:1px solid #dedede;
+}
+div.sorts>.name{
+    margin-right:18px;
+}
+.orientation div.area{
+    width:1010px;
+    height:54px;
+    line-height:54px;
+    border-style:dashed none;
+    border-color:#dedede;
+    border-width:0.5px;
+    font-size:14px;
+    word-spacing:10px;
+}
+#areaid{
+    margin-right:-10px;
+}
+.icon {
+    display: inline;
+    width: 4px;
+    height:16px;
+    text-align: center;
+}
+.icon .icon_liT{
+    width:0; padding:0; height:25px; background:#fff;
+    border:4px solid #fff;
+    border-bottom:4px solid darkgrey;
+}
+.icon .icon_liT{
+    position:relative;
+    left:-8px;
+    top:-15px;
+}
+.icon .icon_liB{
+    position:relative;
+    left:-16px;
+    top:13px;
+}
+.icon .icon_liB{
+    width:0; padding:0; height:25px; background:#fff;
+    border:4px solid #fff;
+    border-top:4px solid darkgrey;
+}
+.sorts a i>img{
+    position: relative;
+    left:-10px;
+    top:5px;
+}
+.categoryGroup{
+    display: inline;
+}
+/*.categoryGroup>.categoryItemA{*/
+    /*margin-left: 16px;*/
+/*}*/
+.active{
+    color: #b4a078;
+}
+a:hover{
+    color: #b4a078;
+}
+/*a:visited{*/
+    /*color: #b4a078;*/
+/*}*/
+.m-Level2Category{
+    width:1010px;
+    /*border:1px solid red;*/
+    margin:0 auto;
+}
+.m-Level2Category div.hd{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.m-Level2Category>.hd .title {
+    display: inline-block;
+    height:44px;
+    line-height: 44px;
+    width:220px;
+    margin-bottom:20px;
+    margin-top:40px;
+}
+.m-Level2Category>.hd .icon {
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+}
+.m-Level2Category>.hd .name {
+    font-size: 24px;
+    font-weight:bold;
+    color:black;
+    width:180px;
+    height:44px;
+    vertical-align:13px;
+    margin-bottom: 10px;
+}
+.m-Level2Category>.hd .desc {
+    font-size: 14px;
+    color: #999;
+    line-height: 1.5;
+}
+.m-itemList{
+    width:1010px;
+    display:flex;
+    flex-wrap:wrap;
+    /*justify-content:space-between;*/
+    justify-content:flex-start;
+    /*justify-content:space-around;*/
+}
+.m-itemList .li_element{
+    width:245px;
+    height:361px;
+    margin-bottom: 30px;
+}
+.m-itemList .li_element+.li_element{
+    margin-left: 6px;
+}
+.m-itemList .li_element .mproduct{
+    width:245px;
+    height:245px;
+    position: relative;
+    overflow: hidden;
+}
+.m-itemList .li_element .mproduct a .img-lazyload{
+    display: block;
+    width: 245px;
+    height: 245px;
+    transition: all 2s;
+    background-color: #f5f5f5;
+}
+.m-itemList .li_element a .img-lazyload:hover{
+    transform:scale(1.2);
+}
+.colorNum>.colorSpan {
+    position: absolute;
+    z-indent:2;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    font-size: 12px;
+    color: #a7936e;
+    border: 1px solid #b3a07d;
+    border-radius: 5px;
+    padding: 0 4px;
+    line-height: 18px;
+    background-color: #f4f0ea;
+}
+.li_element .bd{
+    text-align:center;
+}
+.li_element .bd .prdtTags{
+    margin-top:10px;
+}
+.li_element .bd .prdtTags .itemTag{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    background-color: #e36844;
+}
+.li_element .bd .prdtTags .itemTag_null{
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+.li_element .bd .prdtTags .attribute{
+    color: #A94528;
+    background-color: #F8BC59;
+}
+.li_element .bd .name{
+    margin-top:4px;
+    margin-bottom: 4px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.li_element .bd #atop {
+    margin-top: 34px;
+}
+.li_element .bd .price{
+    color: #ff0000;
+    font-size: 13px;
+}
+.bd .m-product hr {
+    display: block;
+    width: 130px;
+    height: 1px;
+    padding: 0;
+    margin: 6px auto 14px;
+    border: 0;
+    border-top: 1px solid #e8e8e8;
+}
+.bd .m-product .desc{
+    line-height:18px;
+    font-size: 13px;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/*楼层css样式*/
+.fixFloor{
+    display: none;
+    position: fixed;
+    top:80px;
+}
+.fixFloor>.cf>li>p{
+    word-wrap: break-word;
+    text-align: center;
+    width:100px;
+    height:50px;
+    line-height: 50px;
+    font-size: 14px;
+    border:1px solid gainsboro;
+    border-radius: 25%;
+    cursor:pointer;
+
+}
+.fixFloor>.cf>.active>p{
+    background-color: red;
+    color: black;
+    font-weight: bold;
+
+}

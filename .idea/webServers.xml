@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a1a0d4d6-9bef-4abc-8083-bb1ecfc9c336" name="Apache" url="http://127.0.0.1:8080/">
+        <fileTransfer mountedRoot="I:\tools\upupw_Apache_PHP5.5_20140724_XiaZaiBa\UPUPW_APACHE_PHP5.5.14_UP-A5.4_32bit\upupw\htdocs" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>
