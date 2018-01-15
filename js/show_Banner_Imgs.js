@@ -3,7 +3,7 @@
 
 (()=>{
     var category = location.href.split("/").pop().split(".")[0];
-    console.log(category);
+
     ajax({
         type:"get",
         url:"data/getBanners.php",

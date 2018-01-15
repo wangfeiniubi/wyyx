@@ -5,7 +5,8 @@
 
 //获取产品ID
 var pid = location.search.substr(1).split("=")[1];
-
+var cid =location.href;
+console.log(cid);
 var tabs = document.getElementsByClassName("detail_heard")[0].getElementsByTagName("div");
 var divs = document.getElementsByClassName("particulars")[0].getElementsByTagName("div");
 for(var i = 0;i<tabs.length;i++){
@@ -105,7 +106,7 @@ function change(obj){
 (()=>{
     ajax({
         type:"get",
-        url:"data/a.php?pid=" + pid,
+        url:"data/getProductsDetails.php?pid=" + pid,
         dataType:"json"
     }).then(resData=>{
         console.log(resData);
@@ -119,7 +120,7 @@ function change(obj){
             });
         }
         $(".intro>.desc").html(resData.subtitle);
-        $(".price> .num").html(resData.price);
+        $(".price .num").html(resData.price);
         $(".j_commentEntry>span:first").text(resData.evaluate);
         if(resData.coupon && resData.promotion){
             var promotions = resData.promotion.split("|");
